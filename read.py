@@ -49,7 +49,7 @@ def main():
     for elem in listOfProcessNames:
         print(elem)
 
-    print('*** Top 5 process with highest memory usage ***')
+    print('*** Top 20 process with highest memory usage ***')
 
     listOfRunningProcess = getListOfProcessSortedByMemory()
 
